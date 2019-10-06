@@ -32,6 +32,6 @@ So when I was designing this game, I knew there were a couple things that were n
 
 First, I needed a class to represent a player. It needs to keep track of how many points they have accumulated, their current hand of cards, how many points they have bid for and how many sandbags they have. This is all done in Player.java.
 
-Second, I needed a deck of cards. I decided to represent the cards with strings, represented as "X of Y" where X was a numerical value (so 2, 3, J, Q, K, A) and Y represented the suits (so Spades, Diamonds, etc). This is represented by Deck.java.
+Second, I needed a deck of cards. I decided to represent the cards with strings, represented as "X of Y" where X was a numerical value (so 2, 3, J, Q, K, A, etc) and Y represented the suits (so Spades, Diamonds, etc). This is represented by Deck.java. Please note that T is equivalent to 10 in this game!
 
 Finally, I wanted the AI for the game to play intelligently. Hence, I created a class in Solver.java which evaluated a given hand of cards and told the computer which card to play. Most of the time, the computer just plays their best possible card but occasionally, the computer will play an arbitrary card (especially in the cases where the number of tricks they have won is equal to the number of tricks they have bid for).
