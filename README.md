@@ -20,7 +20,7 @@ Finally, in order to begin the game, run
   > java Spades
 ```
 
-and this will begin the game!
+and this will begin the game! Please note: when asked for a name, put in only your first name and when asked for a number, put in only numbers. Thank you and enjoy the game :) 
 
 If you don't know the rules of spades, please don't skip this part: spades is a trick taking game where each player will receive a hand of cards. Before any cards are played, each player looks at their hand and decides on how many 'tricks' they think they can win. However many hands the player believes they can win, they will bid that number of 'tricks'. For example, if I believe I can win 5 hands, I will bid 5.
 
